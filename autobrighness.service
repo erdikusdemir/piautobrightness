@@ -1,0 +1,8 @@
+[Unit]
+Description=autobrightness
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/piautobrightness/autobrightness.py
+
+[Install]
+WantedBy=multi-user.target
